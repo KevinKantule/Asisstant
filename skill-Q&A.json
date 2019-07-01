@@ -1,0 +1,4075 @@
+{
+  "name": "Q&A",
+  "intents": [
+    {
+      "intent": "4",
+      "examples": [
+        {
+          "text": "4"
+        },
+        {
+          "text": "cuatro"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "confirmar",
+      "examples": [
+        {
+          "text": "si"
+        },
+        {
+          "text": "empezar"
+        },
+        {
+          "text": "empezamos"
+        },
+        {
+          "text": "acepto"
+        },
+        {
+          "text": "correcto"
+        },
+        {
+          "text": "sí"
+        },
+        {
+          "text": "si quiero"
+        },
+        {
+          "text": "quiero jugar"
+        }
+      ]
+    },
+    {
+      "intent": "2",
+      "examples": [
+        {
+          "text": "2"
+        },
+        {
+          "text": "dos"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "cancelar",
+      "examples": [
+        {
+          "text": "cancelar"
+        },
+        {
+          "text": "no es esa"
+        },
+        {
+          "text": "no"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "10",
+      "examples": [
+        {
+          "text": "10"
+        },
+        {
+          "text": "diez"
+        }
+      ]
+    },
+    {
+      "intent": "3",
+      "examples": [
+        {
+          "text": "3"
+        },
+        {
+          "text": "tres"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "5",
+      "examples": [
+        {
+          "text": "5"
+        },
+        {
+          "text": "cinco"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "respuesta",
+      "examples": [
+        {
+          "text": "36 por ciento"
+        },
+        {
+          "text": "36 porciento"
+        },
+        {
+          "text": "Suba. Se pronostica una suba del 7% (2019 vs 2018) con un promedio de 203 rigs activos."
+        },
+        {
+          "text": "Baja. Se pronostica un precio Spot de 59,9 USD/barril en USA de con una baja del 8%. El precio promedio del Brent 66 USD/barril, baja del 7%."
+        },
+        {
+          "text": "seis en caribe"
+        },
+        {
+          "text": "587 000 000"
+        },
+        {
+          "text": "587000000"
+        },
+        {
+          "text": "$587 millones"
+        },
+        {
+          "text": "$587 M"
+        },
+        {
+          "text": "587 m"
+        },
+        {
+          "text": "quinientos ochenta y siete millones"
+        },
+        {
+          "text": "13129 barriles"
+        },
+        {
+          "text": "0.17"
+        },
+        {
+          "text": "Venezuela"
+        },
+        {
+          "text": "Argentina"
+        },
+        {
+          "text": "20 en america latina"
+        },
+        {
+          "text": "20 en América Latina"
+        },
+        {
+          "text": "14 en Brazil"
+        },
+        {
+          "text": "6 en caribe"
+        },
+        {
+          "text": "Brasil"
+        },
+        {
+          "text": "Chile"
+        },
+        {
+          "text": "Cementing"
+        },
+        {
+          "text": "multi chem"
+        },
+        {
+          "text": "36%"
+        },
+        {
+          "text": "5.7 Billion"
+        },
+        {
+          "text": "152 Millones"
+        },
+        {
+          "text": "Negativo. Se reportó un cash flow operativo negativo de 44 millones."
+        },
+        {
+          "text": "587 millones."
+        },
+        {
+          "text": "Completion and Production. C&P genero 3,662 millones comparado con los 2,075 de D&E."
+        },
+        {
+          "text": "0,17"
+        },
+        {
+          "text": "Colombia"
+        },
+        {
+          "text": "152 000 000"
+        },
+        {
+          "text": "152000000"
+        }
+      ],
+      "description": "Respuestas que debe dar el usuario"
+    },
+    {
+      "intent": "8",
+      "examples": [
+        {
+          "text": "8"
+        },
+        {
+          "text": "ocho"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "9",
+      "examples": [
+        {
+          "text": "9"
+        },
+        {
+          "text": "nueve"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "7",
+      "examples": [
+        {
+          "text": "7"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "saludo",
+      "examples": [
+        {
+          "text": "hola"
+        },
+        {
+          "text": "buenos días"
+        },
+        {
+          "text": "quiero entrar a jugar"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "equipo",
+      "examples": [
+        {
+          "text": "equipo"
+        },
+        {
+          "text": "equipo7"
+        },
+        {
+          "text": "equipo8"
+        },
+        {
+          "text": "equipo9"
+        },
+        {
+          "text": "equipo10"
+        },
+        {
+          "text": "equipo1"
+        },
+        {
+          "text": "equipo2"
+        },
+        {
+          "text": "equipo3"
+        },
+        {
+          "text": "equipo4"
+        },
+        {
+          "text": "equipo5"
+        },
+        {
+          "text": "equipo6"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "1",
+      "examples": [
+        {
+          "text": "uno"
+        },
+        {
+          "text": "1"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "6",
+      "examples": [
+        {
+          "text": "seis"
+        },
+        {
+          "text": "6"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "otro",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "riesgo",
+          "synonyms": [
+            "riesgo",
+            "daño",
+            "daños",
+            "riesgos"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "rigs",
+          "synonyms": [
+            "rigs",
+            "rigs activo",
+            "rigs activos"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "petroleo",
+          "synonyms": [
+            "petroleo",
+            "petróleo"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "mujer",
+          "synonyms": [
+            "mujer",
+            "mujeres"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "reclutar",
+          "synonyms": [
+            "reclutadas",
+            "reclutar"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "head count",
+          "synonyms": [
+            "head count"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "bajo",
+          "synonyms": [
+            "bajo",
+            "baja"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "arma",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "cinturon",
+          "synonyms": [
+            "cinturon"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "zapato",
+          "synonyms": [
+            "bolso",
+            "zapatos",
+            "tacón",
+            "zapato",
+            "botas",
+            "calzado",
+            "bolsos"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "silla",
+          "synonyms": [
+            "silla"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "laptop",
+          "synonyms": [
+            "laptop",
+            "tablet",
+            "videocámara",
+            "macintosh",
+            "iphone",
+            "pc",
+            "smartphone"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "mesa",
+          "synonyms": [
+            "mesa"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "extinguidor",
+          "synonyms": [
+            "extinguidor",
+            "extinguidores"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "cuerpo",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "dedo",
+          "synonyms": [
+            "dedo",
+            "dedos",
+            "pulgar",
+            "meñique",
+            "uñas"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "mano",
+          "synonyms": [
+            "mano",
+            "manos",
+            "muñeca",
+            "muñecas"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "division",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "cementing",
+          "synonyms": [
+            "cementing"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "multichem",
+          "synonyms": [
+            "multichem",
+            "multi chem"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "C&P",
+          "synonyms": [
+            "Completion and Production",
+            "C&P"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "D&E",
+          "synonyms": [
+            "D&E"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "paises",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "colombia",
+          "synonyms": [
+            "colombia"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "venezuela",
+          "synonyms": [
+            "venezuela"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "argentina",
+          "synonyms": [
+            "argentina"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "brasil",
+          "synonyms": [
+            "brasil",
+            "brazil"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "chile",
+          "synonyms": [
+            "chile"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "america latina",
+          "synonyms": [
+            "américa latina",
+            "america latina"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "caribe",
+          "synonyms": [
+            "caribe"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ecuador",
+          "synonyms": [
+            "ecuador"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "porcentaje",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "0.17",
+          "synonyms": [
+            "0,17",
+            "0.17",
+            "0.17%",
+            "0,17%"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "0,16",
+          "synonyms": [
+            "0,16",
+            "0.16",
+            "0.16%",
+            "0,16%"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "7%",
+          "synonyms": [
+            "7%",
+            "7",
+            "0.7",
+            "0,8"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "36",
+          "synonyms": [
+            "36%",
+            "36"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "8%",
+          "synonyms": [
+            "8%",
+            "8",
+            "0.8",
+            "0,8"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "revenue",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "negativo",
+          "synonyms": [
+            "negativo",
+            "negativos"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "suba",
+          "synonyms": [
+            "suba",
+            "subida"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "5.7 B",
+          "synonyms": [
+            "5.7 Billion",
+            "5.7 B",
+            "$5.7 billion",
+            "$5.7 B",
+            "5.7 mil millones",
+            "5.7 MM",
+            "$5.7 MM",
+            "$5.7 mil millones"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "revenue",
+          "synonyms": [
+            "revenue",
+            "ingresos"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "net income",
+          "synonyms": [
+            "net income",
+            "ingresos netos"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "152 M",
+          "synonyms": [
+            "152 millones",
+            "152 M",
+            "$152 millones",
+            "$152 M"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "cash flow",
+          "synonyms": [
+            "cash flow",
+            "cash flow operativo",
+            "flujo de caja",
+            "flujo de caja operativo"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "44 M",
+          "synonyms": [
+            "44 millones",
+            "44 M",
+            "$44 millones",
+            "$44 M"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "587 M",
+          "synonyms": [
+            "587 millones",
+            "587 M",
+            "$587 millones",
+            "$587 M"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "2075 M",
+          "synonyms": [
+            "2075 millones",
+            "2075 M",
+            "$2075 millones",
+            "$2075 M"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "3662 M",
+          "synonyms": [
+            "3662 millones",
+            "3662 M",
+            "$3662 Millones",
+            "$3662 M"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "precio",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "$66",
+          "synonyms": [
+            "$66",
+            "66",
+            "66 uds",
+            "66 usd/barril"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "$59,9",
+          "synonyms": [
+            "$59,9",
+            "$59.9",
+            "59,9",
+            "59.9",
+            "59,9 usd",
+            "59.9 usd",
+            "59,9 usd/barril",
+            "59.9 usd/barril"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "herramienta",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Value Stream Map",
+          "synonyms": [
+            "Value Stream Map"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "A3",
+          "synonyms": [
+            "A3"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Hoshing Kanri o XMatrix",
+          "synonyms": [
+            "Hoshing Kanri o X-Matrix",
+            "X-Matrix",
+            "Hoshing Kanri"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "objeto",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "spot",
+          "synonyms": [
+            "spot",
+            "spots"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "barril",
+          "synonyms": [
+            "barril",
+            "barriles"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "brent",
+          "synonyms": [
+            "brent"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "opcion",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "d",
+          "synonyms": [
+            "d"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "a",
+          "synonyms": [
+            "a"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "b",
+          "synonyms": [
+            "b"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "c",
+          "synonyms": [
+            "c"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "equipo",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "equipo3",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "equipo1",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "equipo2",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "equipo10",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "equipo8",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "equipo7",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "equipo6",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "equipo5",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "equipo4",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "equipo9",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "fortaleza",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "eficiencia",
+          "synonyms": [
+            "eficacia",
+            "optimizar",
+            "eficaz",
+            "óptima",
+            "óptimo",
+            "optimización",
+            "optimice",
+            "eficiencia"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "pelear",
+          "synonyms": [
+            "pelear",
+            "golpear",
+            "atacar",
+            "golpeando",
+            "empujar",
+            "patear",
+            "capturar",
+            "tumbar",
+            "pegar"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "numeros",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "13129",
+          "synonyms": [
+            "13129"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "20",
+          "synonyms": [
+            "20"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "6",
+          "synonyms": [
+            "6"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "14",
+          "synonyms": [
+            "14"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "203",
+          "synonyms": [
+            "203"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "empresas",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "slumberger",
+          "synonyms": [
+            "slumberger"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "halliburton",
+          "synonyms": [
+            "halliburton"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "debilidad",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "sobreproduccion",
+          "synonyms": [
+            "sobreproduccion",
+            "sobreproducción"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "espera",
+          "synonyms": [
+            "espera"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "creatividad no utilizada",
+          "synonyms": [
+            "creatividad no utilizada",
+            "no uso de la creatividad"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "extra procesamiento",
+          "synonyms": [
+            "extra procesamiento",
+            "precesamiento extra"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "transporte",
+          "synonyms": [
+            "transporte",
+            "medio de transporte"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "inventario",
+          "synonyms": [
+            "inventario"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "movimiento",
+          "synonyms": [
+            "movimiento"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "defectos",
+          "synonyms": [
+            "defectos",
+            "defectuoso",
+            "anomalías",
+            "defecto",
+            "defectuosa",
+            "anomalía",
+            "anormalidad"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "valoresHalliburton",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "respeto",
+          "synonyms": [
+            "respeto"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "integridad",
+          "synonyms": [
+            "integridad"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "seguridad",
+          "synonyms": [
+            "seguridad"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "colaboracion",
+          "synonyms": [
+            "colaboracion",
+            "colaboración"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Creatividad",
+          "synonyms": [
+            "creatividad"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "competencia",
+          "synonyms": [
+            "competencia"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "confiabilidad",
+          "synonyms": [
+            "confiabilidad"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "ServiceQuality",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Control Points",
+          "synonyms": [
+            "Control Points",
+            "puntos de contol",
+            "punto de control"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Incident Investigation",
+          "synonyms": [
+            "Incident Investigation",
+            "investigación de incidentes"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Competences",
+          "synonyms": [
+            "Competences",
+            "Competencias"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Design of Service",
+          "synonyms": [
+            "Design of Service",
+            "DOS",
+            "Design of Service (DOS)",
+            "diseño de servicio"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "validar",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "correcto",
+          "synonyms": [
+            "apropiado",
+            "preciso",
+            "adecuado",
+            "correcta",
+            "indicado",
+            "obvio",
+            "correcto",
+            "adecuada",
+            "precisa",
+            "apropiada",
+            "preferible",
+            "idóneo",
+            "idónea",
+            "útil",
+            "razonable",
+            "apto",
+            "adecuadas",
+            "eficaz",
+            "obvia",
+            "C"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "incompleto",
+          "synonyms": [
+            "incompleto",
+            "inacabado",
+            "inacabada",
+            "inacabadas"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "language": "es",
+  "metadata": {
+    "api_version": {
+      "major_version": "v1",
+      "minor_version": "2018-09-20"
+    }
+  },
+  "description": "",
+  "dialog_nodes": [
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Asi es, es correcto."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_60_1557765969362",
+      "metadata": {},
+      "conditions": "@herramienta:(Value Stream Map)",
+      "dialog_node": "node_29_1557777647534",
+      "previous_sibling": "node_61_1557765994001"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "No es cierto."
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_60_1557765969362",
+      "metadata": {},
+      "conditions": "true",
+      "dialog_node": "node_30_1557777769943",
+      "previous_sibling": "node_29_1557777647534"
+    },
+    {
+      "type": "standard",
+      "title": "Pregunta 24",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "24) ¿Qué herramienta de la mejora continua permite transformar la estrategia en acciones?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_60_1557765969362",
+      "metadata": {},
+      "conditions": "true",
+      "dialog_node": "node_61_1557765994001"
+    },
+    {
+      "type": "standard",
+      "title": "Respuesta 30",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_73_1557766716309",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_75_1557766856188"
+      },
+      "dialog_node": "node_74_1557766823167"
+    },
+    {
+      "type": "standard",
+      "title": "Respuesta 9",
+      "output": {},
+      "parent": "node_31_1557763326590",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1557847557125"
+      },
+      "conditions": "true",
+      "dialog_node": "node_32_1557763406925",
+      "digress_out": "allow_all"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Falso $current_player. 5.7 Billones es la respuesta."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_28_1557763215563",
+      "metadata": {},
+      "conditions": "true",
+      "dialog_node": "node_83_1557774879301",
+      "previous_sibling": "node_82_1557774837053"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Estás en lo cierto $current_player"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_28_1557763215563",
+      "context": {
+        "count": "<? $count + 1 ?>"
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1557847557125"
+      },
+      "conditions": "@revenue:(5.7 B) || @opcion:b",
+      "dialog_node": "node_82_1557774837053"
+    },
+    {
+      "type": "standard",
+      "title": "Respuesta 19",
+      "output": {},
+      "parent": "node_50_1557764749530",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_52_1557764873095"
+      },
+      "conditions": "true",
+      "dialog_node": "node_51_1557764824179",
+      "digress_out": "allow_all"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "1) ¿Cuál es el país de América Latina que ha tenido el mayor crecimiento de Rig Count en los últimos 3 años?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1557755578499",
+      "disabled": true,
+      "metadata": {},
+      "dialog_node": "node_2_1557755664068",
+      "previous_sibling": "node_3_1557755992258"
+    },
+    {
+      "type": "standard",
+      "title": "Respuesta 1",
+      "output": {},
+      "parent": "node_1_1557755578499",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1557847557125"
+      },
+      "conditions": "true",
+      "dialog_node": "node_3_1557755992258",
+      "digress_out": "allow_all"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "$current_player la respuesta esta mal. Multi Chem es la correcta."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_32_1557763406925",
+      "metadata": {},
+      "conditions": "true",
+      "dialog_node": "node_2_1557775256225",
+      "previous_sibling": "node_1_1557775212752"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "$current_player su respuesta esta buena."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_32_1557763406925",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1557847557125"
+      },
+      "conditions": "@division:multichem || @opcion:b",
+      "dialog_node": "node_1_1557775212752"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "$current_player la respuesta es incorrecta. La respuesta correcta es la 20 en América Latina, 14 en Brasil y 6 en Caribe."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_19_1557759062716",
+      "metadata": {},
+      "conditions": "true",
+      "dialog_node": "node_22_1557759336462",
+      "previous_sibling": "node_20_1557759075574"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Felicidades $current_player, es correcto."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_19_1557759062716",
+      "context": {
+        "count": "<? $count + 1 ?>"
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1557847557125"
+      },
+      "conditions": "@opcion:d || @numeros:20 && @numeros:6 && @numeros:14 && @paises:(america latina) && @paises:brasil && @paises:caribe",
+      "dialog_node": "node_20_1557759075574"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Wao! felicidades, es correcto."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_41_1557764075477",
+      "metadata": {},
+      "conditions": "@revenue:(152 M)",
+      "dialog_node": "node_11_1557776012993",
+      "previous_sibling": "node_42_1557764229987"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "No es la respuesta correcta."
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_41_1557764075477",
+      "metadata": {},
+      "conditions": "true",
+      "dialog_node": "node_12_1557776171443",
+      "previous_sibling": "node_11_1557776012993"
+    },
+    {
+      "type": "standard",
+      "title": "Pregunta 15",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "15.\tAcorde con el reporte financiero del Halliburton en el primer cuarto del 2019, ¿Halliburton está generando un resultado positivo o negativo de flujo de caja proveniente de sus operaciones?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_41_1557764075477",
+      "metadata": {},
+      "conditions": "true",
+      "dialog_node": "node_42_1557764229987"
+    },
+    {
+      "type": "standard",
+      "title": "Respuesta 23",
+      "output": {},
+      "parent": "node_58_1557765844780",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_61_1557765994001"
+      },
+      "conditions": "true",
+      "dialog_node": "node_60_1557765969362",
+      "digress_out": "allow_all"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Su respuesta es correcta."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_66_1557766381657",
+      "metadata": {},
+      "conditions": "@valoresHalliburton",
+      "dialog_node": "node_35_1557777948012",
+      "previous_sibling": "node_67_1557766406670"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Estan mal las respuestas de usted."
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_66_1557766381657",
+      "metadata": {},
+      "conditions": "true",
+      "dialog_node": "node_36_1557777980449",
+      "previous_sibling": "node_35_1557777948012"
+    },
+    {
+      "type": "standard",
+      "title": "Pregunta 27",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "27) ¿Cuáles son los mínimos de Service Quality?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_66_1557766381657",
+      "metadata": {},
+      "conditions": "true",
+      "dialog_node": "node_67_1557766406670"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Felicidades, llegaste al final del juego."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_76_1557766921731",
+      "metadata": {},
+      "conditions": "true",
+      "dialog_node": "node_77_1557766950162"
+    },
+    {
+      "type": "standard",
+      "title": "Respuesta 13",
+      "output": {},
+      "parent": "node_39_1557763795860",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_40_1557763924701"
+      },
+      "conditions": "true",
+      "dialog_node": "node_57_1557765329287",
+      "digress_out": "allow_all"
+    },
+    {
+      "type": "standard",
+      "title": "Pregunta 31 Final",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "31) ¿Cuál es el record de producción diario de Igapo?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_74_1557766823167",
+      "metadata": {},
+      "dialog_node": "node_75_1557766856188"
+    },
+    {
+      "type": "standard",
+      "title": "Respuesta 14",
+      "output": {},
+      "parent": "node_40_1557763924701",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_42_1557764229987"
+      },
+      "conditions": "true",
+      "dialog_node": "node_41_1557764075477",
+      "digress_out": "allow_all"
+    },
+    {
+      "type": "standard",
+      "title": "Respuesta 6",
+      "output": {},
+      "parent": "node_25_1557762968642",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1557847557125"
+      },
+      "conditions": "true",
+      "dialog_node": "node_26_1557763020793",
+      "digress_out": "allow_all"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Es correcto."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_38_1557763758657",
+      "metadata": {},
+      "conditions": "@otro:rigs && @numeros:203 && @porcentaje:7% && @revenue:suba",
+      "dialog_node": "node_7_1557775721945",
+      "previous_sibling": "node_39_1557763795860"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Falso."
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_38_1557763758657",
+      "metadata": {},
+      "conditions": "true",
+      "dialog_node": "node_8_1557775875833",
+      "previous_sibling": "node_7_1557775721945"
+    },
+    {
+      "type": "standard",
+      "title": "pregunta 13",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "13) ¿Cuál fue el Revenue reportado por Halliburton en el primer cuarto del 2019?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_38_1557763758657",
+      "metadata": {},
+      "conditions": "true",
+      "dialog_node": "node_39_1557763795860"
+    },
+    {
+      "type": "standard",
+      "title": "Respuesta 22",
+      "output": {},
+      "parent": "node_56_1557765053681",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_58_1557765844780"
+      },
+      "conditions": "true",
+      "dialog_node": "node_59_1557765906951",
+      "digress_out": "allow_all"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Estas en lo cierto."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_36_1557763705177",
+      "metadata": {},
+      "conditions": "@otro:bajo && @porcentaje:8% && @porcentaje:7% && @precio:$59,9 && @precio:$66",
+      "dialog_node": "node_5_1557775397299",
+      "previous_sibling": "node_37_1557763723179"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Su respuesta esta mal."
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_36_1557763705177",
+      "metadata": {},
+      "conditions": "true",
+      "dialog_node": "node_6_1557775654239",
+      "previous_sibling": "node_5_1557775397299"
+    },
+    {
+      "type": "standard",
+      "title": "pregunta 12",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "12) Según Spears marzo 2019, ¿se pronostica una suba o baja del rig count en América Latina para el 2019?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_36_1557763705177",
+      "metadata": {},
+      "conditions": "true",
+      "dialog_node": "node_37_1557763723179"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "No es la respuesta correcta $current_player. 587 Millones es la correcta."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_30_1557763285299",
+      "metadata": {},
+      "conditions": "true",
+      "dialog_node": "node_85_1557774961139",
+      "previous_sibling": "node_84_1557774930275"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Estas en lo cierto $current_player."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_30_1557763285299",
+      "context": {
+        "count": "<? $count + 1 ?>"
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1557847557125"
+      },
+      "conditions": "@revenue:(587 M) || @opcion:d",
+      "dialog_node": "node_84_1557774930275"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Lo acertaste, que bien."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_57_1557765329287",
+      "metadata": {},
+      "conditions": "@revenue:(5.7 B)",
+      "dialog_node": "node_9_1557775920097",
+      "previous_sibling": "node_40_1557763924701"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "No la acertaste."
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_57_1557765329287",
+      "metadata": {},
+      "conditions": "true",
+      "dialog_node": "node_10_1557775963858",
+      "previous_sibling": "node_9_1557775920097"
+    },
+    {
+      "type": "standard",
+      "title": "Pregunta 14",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "14) ¿Cuál fue el Net Income reportado por Halliburton en el primer cuarto del 2019?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_57_1557765329287",
+      "metadata": {},
+      "conditions": "true",
+      "dialog_node": "node_40_1557763924701"
+    },
+    {
+      "type": "frame",
+      "title": "Bienvenido",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1558112344890",
+      "context": {
+        "equipos": {
+          "equipo1": [
+            "Yeinel"
+          ],
+          "equipo2": [
+            "Roberto"
+          ]
+        }
+      },
+      "metadata": {
+        "fallback": "leave",
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_1_1558110370650"
+      },
+      "conditions": "true",
+      "dialog_node": "Bienvenido",
+      "digress_out": "allow_all",
+      "digress_out_slots": "not_allowed"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Todas las preguntas fueron respondidas. \nSu puntaje final es: $count/10"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1557847557125",
+      "metadata": {},
+      "conditions": "$actual_questions.length>=10",
+      "dialog_node": "node_4_1558045761029",
+      "previous_sibling": "node_3_1558014351398"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Su puntaje total es: $count/10"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1557847557125",
+      "metadata": {},
+      "conditions": "#cancelar",
+      "dialog_node": "node_3_1558014351398",
+      "previous_sibling": "node_2_1558014311047"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "$current_player diga un número de 1 a 10, omitiendo el anterior.\npuntaje actual: $count/10"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1557847557125",
+      "context": {
+        "current_player": "<? $equipo.getRandomItem() ?>"
+      },
+      "metadata": {},
+      "conditions": "true",
+      "dialog_node": "node_3_1558045739569",
+      "previous_sibling": "node_4_1558045761029"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Seleccione un número de 1 a 10, omitiendo el número anterior."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1557847557125",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "Bienvenido"
+      },
+      "conditions": "#confirmar",
+      "dialog_node": "node_2_1558014311047"
+    },
+    {
+      "type": "standard",
+      "title": "Respuesta 15",
+      "output": {},
+      "parent": "node_42_1557764229987",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_44_1557764316581"
+      },
+      "conditions": "true",
+      "dialog_node": "node_43_1557764278236",
+      "digress_out": "allow_all"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "La respuesta esta mal $current_player. Halliburton tuvo mayor crecimiento."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_34_1557763493658",
+      "metadata": {},
+      "conditions": "true",
+      "dialog_node": "node_4_1557775331022",
+      "previous_sibling": "node_3_1557775291465"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Correcto $current_player."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_34_1557763493658",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1557847557125"
+      },
+      "conditions": "@empresas:halliburton || @opcion:b",
+      "dialog_node": "node_3_1557775291465"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Falso."
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_53_1557764954362",
+      "metadata": {},
+      "conditions": "true",
+      "dialog_node": "node_24_1557777359366",
+      "previous_sibling": "node_23_1557777269595"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Correcto."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_53_1557764954362",
+      "metadata": {},
+      "conditions": "@fortaleza:pelear && @arma",
+      "dialog_node": "node_23_1557777269595",
+      "previous_sibling": "node_54_1557764981610"
+    },
+    {
+      "type": "standard",
+      "title": "Pregunta 21",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "21)\tMencione 3 de los 8 desperdicios que elimina el proceso de mejora continua"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_53_1557764954362",
+      "metadata": {},
+      "conditions": "true",
+      "dialog_node": "node_54_1557764981610"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "su respuesta esta errónea $current_player. La correcta es 36%"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_26_1557763020793",
+      "metadata": {},
+      "conditions": "true",
+      "dialog_node": "node_81_1557774764438",
+      "previous_sibling": "node_80_1557774696389"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "su respuesta es cierta $current_player."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_26_1557763020793",
+      "context": {
+        "count": "<? $count + 1 ?>"
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1557847557125"
+      },
+      "conditions": "@porcentaje:36 || @opcion:d",
+      "dialog_node": "node_80_1557774696389"
+    },
+    {
+      "type": "standard",
+      "title": "Respuesta 21",
+      "output": {},
+      "parent": "node_54_1557764981610",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_56_1557765053681"
+      },
+      "conditions": "true",
+      "dialog_node": "node_55_1557765016333",
+      "digress_out": "allow_all"
+    },
+    {
+      "type": "standard",
+      "title": "respuesta 8",
+      "output": {},
+      "parent": "node_29_1557763249632",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1557847557125"
+      },
+      "conditions": "true",
+      "dialog_node": "node_30_1557763285299",
+      "digress_out": "allow_all"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Incorrecto."
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_43_1557764278236",
+      "metadata": {},
+      "conditions": "true",
+      "dialog_node": "node_14_1557776315143",
+      "previous_sibling": "node_13_1557776209366"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Es correcto."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_43_1557764278236",
+      "metadata": {},
+      "conditions": "@revenue:negativo && @revenue:(44 M)",
+      "dialog_node": "node_13_1557776209366",
+      "previous_sibling": "node_44_1557764316581"
+    },
+    {
+      "type": "standard",
+      "title": "Pregunta 16",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "16) ¿Cuál fue el Revenue de América Latina del primer cuarto del 2019?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_43_1557764278236",
+      "metadata": {},
+      "conditions": "true",
+      "dialog_node": "node_44_1557764316581"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Cierto."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_59_1557765906951",
+      "metadata": {},
+      "conditions": "@fortaleza:eficiencia",
+      "dialog_node": "node_27_1557777580713",
+      "previous_sibling": "node_58_1557765844780"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Falso."
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_59_1557765906951",
+      "metadata": {},
+      "conditions": "true",
+      "dialog_node": "node_28_1557777610717",
+      "previous_sibling": "node_27_1557777580713"
+    },
+    {
+      "type": "standard",
+      "title": "Pregunta 23",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "23) ¿Qué herramienta de mejora continua permite identificar el valor para nuestro cliente?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_59_1557765906951",
+      "metadata": {},
+      "conditions": "true",
+      "dialog_node": "node_58_1557765844780"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Correcto"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_49_1557764731432",
+      "metadata": {},
+      "conditions": "@porcentaje:0.17",
+      "dialog_node": "node_19_1557776725305",
+      "previous_sibling": "node_50_1557764749530"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Falso."
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_49_1557764731432",
+      "metadata": {},
+      "conditions": "true",
+      "dialog_node": "node_20_1557776778928",
+      "previous_sibling": "node_19_1557776725305"
+    },
+    {
+      "type": "standard",
+      "title": "Pregunta 19",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "19) ¿Comparando Q1 2018 con Q1 2019 que empresa servicios tuvo el mayor crecimiento en América Latina? Slumberger o Halliburton?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_49_1557764731432",
+      "metadata": {},
+      "conditions": "true",
+      "dialog_node": "node_50_1557764749530"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "La respuesta es incorrecta. Venezuela es la correcta $current_player."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1557756611751",
+      "metadata": {},
+      "conditions": "true",
+      "dialog_node": "node_10_1557756977630",
+      "previous_sibling": "node_8_1557756633626"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "La respuesta es correcta, bien hecho $current_player."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1557756611751",
+      "context": {
+        "count": "<? $count + 1 ?>"
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1557847557125"
+      },
+      "conditions": "@paises:venezuela || @opcion:b",
+      "dialog_node": "node_8_1557756633626"
+    },
+    {
+      "type": "standard",
+      "title": "respuesta 7",
+      "output": {},
+      "parent": "node_27_1557763039917",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1557847557125"
+      },
+      "conditions": "true",
+      "dialog_node": "node_28_1557763215563",
+      "digress_out": "allow_all"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "$current_player fallaste, la respuesta es Argentina."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_15_1557758790158",
+      "metadata": {},
+      "conditions": "true",
+      "dialog_node": "node_17_1557758861042",
+      "previous_sibling": "node_16_1557758802243"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Felicidades $current_player su respuesta es correcta."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_15_1557758790158",
+      "context": {
+        "count": "<? $count + 1 ?>"
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1557847557125"
+      },
+      "conditions": "@paises:argentina || @opcion:b",
+      "dialog_node": "node_16_1557758802243"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "incorrecto $current_player, que pasó. La respuesta correcta es Hoshing Kanri."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_24_1557762923973",
+      "metadata": {},
+      "conditions": "true",
+      "dialog_node": "node_79_1557774652600",
+      "previous_sibling": "node_78_1557774637454"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "correcto $current_player."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_24_1557762923973",
+      "context": {
+        "count": "<? $count + 1 ?>"
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1557847557125"
+      },
+      "conditions": "@herramienta:(Hoshing Kanri o XMatrix) || @opcion:c",
+      "dialog_node": "node_78_1557774637454"
+    },
+    {
+      "type": "standard",
+      "title": "Respuesta 2",
+      "output": {},
+      "parent": "node_6_1557756514114",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1557847557125"
+      },
+      "conditions": "true",
+      "dialog_node": "node_7_1557756611751",
+      "digress_out": "allow_all"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Correcto."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_55_1557765016333",
+      "metadata": {},
+      "conditions": "@debilidad",
+      "dialog_node": "node_25_1557777412332",
+      "previous_sibling": "node_56_1557765053681"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "no es verdad."
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_55_1557765016333",
+      "metadata": {},
+      "conditions": "true",
+      "dialog_node": "node_26_1557777481876",
+      "previous_sibling": "node_25_1557777412332"
+    },
+    {
+      "type": "standard",
+      "title": "Pregunta 22",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "22) ¿Cuál de los 3 indicadores de gestión, Eficacia, Eficiencia o Efectividad, permite detectar una mejora en el consumo de recursos?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_55_1557765016333",
+      "metadata": {},
+      "conditions": "true",
+      "dialog_node": "node_56_1557765053681"
+    },
+    {
+      "type": "standard",
+      "title": "Pregunta 30",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "30) ¿Que país tuvo los mejores indicadores de seguridad durante el 2018?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_72_1557766696375",
+      "metadata": {},
+      "conditions": "true",
+      "dialog_node": "node_73_1557766716309"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "La respuesta es incorrecta $current_player. Colombia es la respuesta correcta."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1557755992258",
+      "metadata": {},
+      "conditions": "true",
+      "dialog_node": "node_9_1557756891441",
+      "previous_sibling": "node_4_1557756367431"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "$current_player su respuesta es correcta."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1557755992258",
+      "context": {
+        "count": "<? $count + 1 ?>"
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1557847557125"
+      },
+      "conditions": "@paises:colombia || @opcion:b",
+      "dialog_node": "node_4_1557756367431"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Me podrías indicar el nombre de tu equipo."
+      },
+      "parent": "slot_3_1558110862376",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_5_1558110862376",
+      "previous_sibling": "handler_4_1558110862376"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_3_1558110862376",
+      "context": {
+        "nombre_equipo": "@equipo"
+      },
+      "conditions": "@equipo",
+      "event_name": "input",
+      "dialog_node": "handler_4_1558110862376"
+    },
+    {
+      "type": "standard",
+      "title": "Respuesta 16",
+      "output": {},
+      "parent": "node_44_1557764316581",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_46_1557764444588"
+      },
+      "conditions": "true",
+      "dialog_node": "node_45_1557764354311",
+      "digress_out": "allow_all"
+    },
+    {
+      "type": "standard",
+      "title": "Respuesta 18",
+      "output": {},
+      "parent": "node_47_1557764628881",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_50_1557764749530"
+      },
+      "conditions": "true",
+      "dialog_node": "node_49_1557764731432",
+      "digress_out": "allow_all"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Falso."
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_62_1557766187820",
+      "metadata": {},
+      "conditions": "true",
+      "dialog_node": "node_32_1557777840889",
+      "previous_sibling": "node_31_1557777811484"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Correcto."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_62_1557766187820",
+      "metadata": {},
+      "conditions": "@herramienta:(Hoshing Kanri o XMatrix)",
+      "dialog_node": "node_31_1557777811484",
+      "previous_sibling": "node_63_1557766231312"
+    },
+    {
+      "type": "standard",
+      "title": "Pregunta 25",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "25) ¿Qué herramienta de la mejora continua van a usar para planificar y ejecutar el cambio?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_62_1557766187820",
+      "metadata": {},
+      "conditions": "true",
+      "dialog_node": "node_63_1557766231312"
+    },
+    {
+      "type": "standard",
+      "title": "Respuesta 11",
+      "output": {},
+      "parent": "node_35_1557763667362",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_37_1557763723179"
+      },
+      "conditions": "true",
+      "dialog_node": "node_36_1557763705177",
+      "digress_out": "allow_all"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Su respuesta esta mal."
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_68_1557766469427",
+      "metadata": {},
+      "conditions": "true",
+      "dialog_node": "node_38_1557778077537",
+      "previous_sibling": "node_37_1557778025043"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Que bien, su resta es cierta."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_68_1557766469427",
+      "metadata": {},
+      "conditions": "@ServiceQuality",
+      "dialog_node": "node_37_1557778025043",
+      "previous_sibling": "node_69_1557766537081"
+    },
+    {
+      "type": "standard",
+      "title": "Pregunta 28",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "28) ¿Cuál es la causa raíz del 76% de los accidentes en LA durante el 2018?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_68_1557766469427",
+      "metadata": {},
+      "conditions": "true",
+      "dialog_node": "node_69_1557766537081"
+    },
+    {
+      "type": "standard",
+      "title": "Respuesta 10",
+      "output": {},
+      "parent": "node_33_1557763428038",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1557847557125"
+      },
+      "conditions": "true",
+      "dialog_node": "node_34_1557763493658",
+      "digress_out": "allow_all"
+    },
+    {
+      "type": "standard",
+      "title": "Pregunta 17",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "17) Globalmente, ¿qué división produjo mayor revenue en el primer cuarto del 2019?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_45_1557764354311",
+      "metadata": {},
+      "conditions": "true",
+      "dialog_node": "node_46_1557764444588",
+      "previous_sibling": "node_16_1557776403656"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "No es así."
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_45_1557764354311",
+      "metadata": {},
+      "conditions": "true",
+      "dialog_node": "node_16_1557776403656",
+      "previous_sibling": "node_15_1557776356752"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Así es, estas en lo cierto."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_45_1557764354311",
+      "metadata": {},
+      "conditions": "@revenue:(587 M)",
+      "dialog_node": "node_15_1557776356752"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_70_1557766597439",
+      "metadata": {},
+      "dialog_node": "node_39_1557778119300",
+      "previous_sibling": "node_71_1557766619117"
+    },
+    {
+      "type": "standard",
+      "title": "Pregunta 29",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "29) ¿Cual fue el Total Recordable Incident Rate durante 2018 (record de los últimos 18 años)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_70_1557766597439",
+      "metadata": {},
+      "conditions": "true",
+      "dialog_node": "node_71_1557766619117"
+    },
+    {
+      "type": "standard",
+      "title": "Respuesta 25",
+      "output": {},
+      "parent": "node_63_1557766231312",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_65_1557766324591"
+      },
+      "conditions": "true",
+      "dialog_node": "node_64_1557766291853",
+      "digress_out": "allow_all"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Falso."
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_64_1557766291853",
+      "metadata": {},
+      "conditions": "true",
+      "dialog_node": "node_34_1557777904478",
+      "previous_sibling": "node_33_1557777871848"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Cierto."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_64_1557766291853",
+      "metadata": {},
+      "conditions": "@herramienta:A3",
+      "dialog_node": "node_33_1557777871848",
+      "previous_sibling": "node_65_1557766324591"
+    },
+    {
+      "type": "standard",
+      "title": "Pregunta 26",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "26) Nombre 3 valores de Halliburton"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_64_1557766291853",
+      "metadata": {},
+      "conditions": "true",
+      "dialog_node": "node_65_1557766324591"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "No es cierto."
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_51_1557764824179",
+      "metadata": {},
+      "conditions": "true",
+      "dialog_node": "node_22_1557777221718",
+      "previous_sibling": "node_21_1557777161732"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Su respuesta es cierta."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_51_1557764824179",
+      "metadata": {},
+      "conditions": "@empresas:halliburton",
+      "dialog_node": "node_21_1557777161732",
+      "previous_sibling": "node_52_1557764873095"
+    },
+    {
+      "type": "standard",
+      "title": "Pregunta 20",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "20) Acorde con el entrenamiento de Active Shooter. Si Usted se encuentra en una habitación con una persona armada que está disparando, ¿si usted no encuentra ruta alternativa de escape y tiene riesgo de ser descubierto, que acción debe tomar?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_51_1557764824179",
+      "metadata": {},
+      "conditions": "true",
+      "dialog_node": "node_52_1557764873095"
+    },
+    {
+      "type": "standard",
+      "title": "Respuesta 12",
+      "output": {},
+      "parent": "node_37_1557763723179",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_39_1557763795860"
+      },
+      "conditions": "true",
+      "dialog_node": "node_38_1557763758657",
+      "digress_out": "allow_all"
+    },
+    {
+      "type": "standard",
+      "title": "Respuesta 28",
+      "output": {},
+      "parent": "node_69_1557766537081",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_71_1557766619117"
+      },
+      "dialog_node": "node_70_1557766597439",
+      "digress_out": "allow_all"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Cierto."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_48_1557764684051",
+      "metadata": {},
+      "conditions": "@division:C&P && @revenue:(3662 M)",
+      "dialog_node": "node_17_1557776459301",
+      "previous_sibling": "node_47_1557764628881"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Falso."
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_48_1557764684051",
+      "metadata": {},
+      "conditions": "true",
+      "dialog_node": "node_18_1557776663396",
+      "previous_sibling": "node_17_1557776459301"
+    },
+    {
+      "type": "standard",
+      "title": "Pregunta 18",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "18) ¿Cuál fue el valor de Earning per Share reportado por Halliburton en el primer cuarto del 2019?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_48_1557764684051",
+      "metadata": {},
+      "conditions": "true",
+      "dialog_node": "node_47_1557764628881"
+    },
+    {
+      "type": "standard",
+      "title": "Respuesta 26",
+      "output": {},
+      "parent": "node_65_1557766324591",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_67_1557766406670"
+      },
+      "conditions": "true",
+      "dialog_node": "node_66_1557766381657",
+      "digress_out": "allow_all"
+    },
+    {
+      "type": "standard",
+      "title": "Respuesta 3",
+      "output": {},
+      "parent": "node_11_1557757005623",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1557847557125"
+      },
+      "conditions": "true",
+      "dialog_node": "node_15_1557758790158",
+      "digress_out": "allow_all"
+    },
+    {
+      "type": "standard",
+      "title": "Respuesta 24",
+      "output": {},
+      "parent": "node_61_1557765994001",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "true",
+      "dialog_node": "node_62_1557766187820",
+      "digress_out": "allow_all"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hola, me llamo Watson y voy hacerte unas preguntas. \n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "Bienvenido",
+      "disabled": true,
+      "metadata": {},
+      "dialog_node": "node_2_1557511413091",
+      "previous_sibling": "handler_2_1558110862366"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Me podrías indicar el nombre de tu equipo."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Bienvenido",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_2_1558110862366",
+      "previous_sibling": "slot_3_1558110862376"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "Bienvenido",
+      "metadata": {},
+      "variable": "$nombre_equipo",
+      "dialog_node": "slot_3_1558110862376",
+      "previous_sibling": "node_1_1558110370650"
+    },
+    {
+      "type": "standard",
+      "title": "HACER PRIMERA PREGUNTA",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "$current_player dime un número de 1 a 10 para seleccionar su pregunta. \n$nombre_equipo"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "Bienvenido",
+      "context": {
+        "count": 0,
+        "equipo": "<? $equipos[$nombre_equipo]?>",
+        "current_player": "<? $equipo.getRandomItem() ?>",
+        "actual_questions": []
+      },
+      "metadata": {},
+      "conditions": "true",
+      "dialog_node": "node_1_1558110370650"
+    },
+    {
+      "type": "standard",
+      "title": "Respuesta 17",
+      "output": {},
+      "parent": "node_46_1557764444588",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_47_1557764628881"
+      },
+      "conditions": "true",
+      "dialog_node": "node_48_1557764684051",
+      "digress_out": "allow_all"
+    },
+    {
+      "type": "standard",
+      "title": "Respuesta 20",
+      "output": {},
+      "parent": "node_52_1557764873095",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_54_1557764981610"
+      },
+      "conditions": "true",
+      "dialog_node": "node_53_1557764954362",
+      "digress_out": "allow_all"
+    },
+    {
+      "type": "standard",
+      "title": "Respuesta 27",
+      "output": {},
+      "parent": "node_67_1557766406670",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_69_1557766537081"
+      },
+      "dialog_node": "node_68_1557766469427",
+      "digress_out": "allow_all"
+    },
+    {
+      "type": "standard",
+      "title": "Respuesta Final",
+      "output": {},
+      "parent": "node_75_1557766856188",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "true",
+      "dialog_node": "node_76_1557766921731",
+      "digress_out": "allow_all"
+    },
+    {
+      "type": "standard",
+      "title": "Respuesta 4",
+      "output": {},
+      "parent": "node_18_1557758913630",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1557847557125"
+      },
+      "conditions": "true",
+      "dialog_node": "node_19_1557759062716",
+      "digress_out": "allow_all"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "<? $current_player ?>, por favor indique un número del 1 al 10 que no esté entre los siguientes <? $actual_questions.join(\", \") ?>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1557848555316",
+      "metadata": {},
+      "conditions": "true",
+      "dialog_node": "node_1_1558040500077",
+      "previous_sibling": "node_2_1558040534320"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Todas las preguntas fueron respondidas. \nSu puntaje final es: $count/10"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1557848555316",
+      "metadata": {},
+      "conditions": "$actual_questions.length>=10",
+      "dialog_node": "node_2_1558040534320"
+    },
+    {
+      "type": "standard",
+      "title": "Respuesta 29",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_71_1557766619117",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_73_1557766716309"
+      },
+      "conditions": "true",
+      "dialog_node": "node_72_1557766696375"
+    },
+    {
+      "type": "standard",
+      "title": "Respuesta 5",
+      "output": {},
+      "parent": "node_23_1557762684714",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1557847557125"
+      },
+      "conditions": "true",
+      "dialog_node": "node_24_1557762923973",
+      "digress_out": "allow_all"
+    },
+    {
+      "type": "standard",
+      "title": "Pregunta 10",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "10) ¿Comparando Q1 2018 con Q1 2019 que empresa servicios tuvo el mayor crecimiento en América Latina?\nA) Slumberger.\nB) Halliburton."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {
+        "actual_questions": "<? $actual_questions.append(10) ?>"
+      },
+      "metadata": {},
+      "conditions": "#10 && !$actual_questions.contains(10)",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_33_1557763428038",
+      "previous_sibling": "node_31_1557763326590"
+    },
+    {
+      "type": "standard",
+      "title": "Pregunta 2",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "2) ¿Cuál es el país de América Latina que ha tenido la mayor reducción de Rig Count en los últimos 3 años?\nA) Uruguay.\nB) Venezuela.\nC) Costa Rica.\nD) Guatemala."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {
+        "actual_questions": "<? $actual_questions.append(2) ?>"
+      },
+      "metadata": {},
+      "conditions": "#2 && !$actual_questions.contains(2)",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_6_1557756514114",
+      "previous_sibling": "node_1_1557755578499"
+    },
+    {
+      "type": "standard",
+      "title": "Pregunta 7",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "7) ¿Cuál fue el Revenue reportado por Halliburton en el primer cuarto del 2019?\nA) 5.4 Billones.\nB) 5.7 Billones.\nC) 6.0 Billones.\nD) 6.3 Billones."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {
+        "actual_questions": "<? $actual_questions.append(7) ?>"
+      },
+      "metadata": {},
+      "conditions": "#7 && !$actual_questions.contains(7)",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_27_1557763039917",
+      "previous_sibling": "node_25_1557762968642"
+    },
+    {
+      "type": "standard",
+      "title": "Pregunta 1",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "1) ¿Cuál es el país de América Latina que ha tenido el mayor crecimiento de Rig Count en los últimos 3 años?\nA) Panamá.\nB) Colombia.\nC) Chile.\nD) México"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {
+        "actual_questions": "<? $actual_questions.append(1) ?>"
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "#1 && !$actual_questions.contains(1)",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1557755578499",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_1_1558112344890"
+    },
+    {
+      "type": "standard",
+      "title": "Pregunta 11",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "11) Según Spears marzo 2019, ¿se pronostica una suba o una baja del precio del petróleo durante el año 2019?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "false",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_35_1557763667362",
+      "previous_sibling": "node_1_1557847557125"
+    },
+    {
+      "type": "standard",
+      "title": "pregunta 9",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "9) ¿Al cierre de abril 2019, ¿Qué Línea de Servicio tiene el menor Head Count de la región?\nA) Cementing \nB) Multi Chem "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {
+        "actual_questions": "<? $actual_questions.append(9) ?>"
+      },
+      "metadata": {},
+      "conditions": "#9 && !$actual_questions.contains(9)",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_31_1557763326590",
+      "previous_sibling": "node_29_1557763249632"
+    },
+    {
+      "type": "standard",
+      "title": "pregunta 8",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "8) ¿Cuál fue el Revenue de América Latina del primer cuarto del 2019?\nA) 355 Millones.\nB) 603 Millones.\nC) 50 Millones.\nD) 587 Millones. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {
+        "actual_questions": "<? $actual_questions.append(8) ?>"
+      },
+      "metadata": {},
+      "conditions": "#8 && !$actual_questions.contains(8)",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_29_1557763249632",
+      "previous_sibling": "node_27_1557763039917"
+    },
+    {
+      "type": "standard",
+      "title": "Pregunta 3",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "3) ¿Actualmente, que país tiene la mayor cantidad de Rig Count de América Latina?\nA) Perú.\nB) Argentina.\nC) Nicaraguas.\nD) Cuba."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {
+        "actual_questions": "<? $actual_questions.append(3) ?>"
+      },
+      "metadata": {},
+      "conditions": "#3 && !$actual_questions.contains(3)",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_11_1557757005623",
+      "previous_sibling": "node_6_1557756514114"
+    },
+    {
+      "type": "standard",
+      "output": {},
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "anything_else",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_2_1557848555316",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_33_1557763428038"
+    },
+    {
+      "type": "standard",
+      "title": "Pregunta 4",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "4) ¿Qué cantidad de Rig Count Deep Water hay en América Latina al terminar Q1 del 2019?  ¿Cuantos hay en Brazil?  ¿Cuantos en el Caribe?\nA) 20 en América Latina, 6 en Brasil y 14 en Caribe \nB) 20 en America Latina, 10 en Caribe y 10 en Brasil.\nC) 20 en America Latina, 12 en Caribe y 8 en Brasil.\nD) 20 en America Latina, 14 en Brasil y 6 en Caribe."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {
+        "actual_questions": "<? $actual_questions.append(4) ?>"
+      },
+      "metadata": {},
+      "conditions": "#4 && !$actual_questions.contains(4)",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_18_1557758913630",
+      "previous_sibling": "node_11_1557757005623"
+    },
+    {
+      "type": "standard",
+      "title": "Pregunta 5",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "5) ¿Qué herramienta de la mejora continua permite transformar la estrategia en acciones?\nA) A3.\nB) Value Stream Map.\nC) Hoshing Kanri.\nD) Todas las anteriores.\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {
+        "actual_questions": "<? $actual_questions.append(5) ?>"
+      },
+      "metadata": {},
+      "conditions": "#5 && !$actual_questions.contains(5)",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_23_1557762684714",
+      "previous_sibling": "node_18_1557758913630"
+    },
+    {
+      "type": "standard",
+      "title": "Puntos del juego",
+      "output": {},
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#Confirmar",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1557847557125",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_2_1557848555316"
+    },
+    {
+      "type": "standard",
+      "title": "Pregunta 6",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "6) ¿Qué porcentaje de mujeres fueron reclutadas en América Latina durante el mes de Abril?\nA) 75% \nB) 66% \nC) 43% \nD) 36% "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {
+        "actual_questions": "<? $actual_questions.append(6) ?>"
+      },
+      "metadata": {},
+      "conditions": "#6 && !$actual_questions.contains(6)",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_25_1557762968642",
+      "previous_sibling": "node_23_1557762684714"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "conversation_start || #equipo",
+      "dialog_node": "node_1_1558112344890"
+    }
+  ],
+  "workspace_id": "8e0dbfc0-3293-4a93-92a0-24abaf2b3899",
+  "counterexamples": [],
+  "system_settings": {
+    "tooling": {
+      "store_generic_responses": true
+    }
+  },
+  "learning_opt_out": false,
+  "status": "Available"
+}

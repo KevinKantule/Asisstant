@@ -1,0 +1,1050 @@
+{
+  "name": "PraxisBot",
+  "intents": [
+    {
+      "intent": "panamaGobierno",
+      "examples": [
+        {
+          "text": "qe gobierno tiene panama"
+        },
+        {
+          "text": "¿que tipo de gobierno tiene panama?"
+        },
+        {
+          "text": "¿qué tipo de gobierno tiene Panamá?"
+        },
+        {
+          "text": "que tipo de gobierno tiene panama"
+        },
+        {
+          "text": "Que tipo de gobierno tiene Panamá"
+        },
+        {
+          "text": "ke tipo de gobierno tiene panama"
+        }
+      ],
+      "description": "posibles preguntas por parte de los usuarios acerca del tipo de gobierno que tiene Panamá."
+    },
+    {
+      "intent": "voto",
+      "examples": [
+        {
+          "text": "¿Qué es el voto?"
+        },
+        {
+          "text": "que es voto?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "corrupcion",
+      "examples": [
+        {
+          "text": "que es la corrupcion"
+        },
+        {
+          "text": "¿Qué es la Corrupción?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "saludo",
+      "examples": [
+        {
+          "text": "buenas"
+        },
+        {
+          "text": "hola"
+        },
+        {
+          "text": "como estas?"
+        },
+        {
+          "text": "hola, como estas"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "politica",
+      "examples": [
+        {
+          "text": "¿Qué es la política?"
+        },
+        {
+          "text": "que es la politica"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "vedaElectoral",
+      "examples": [
+        {
+          "text": "veda electoral"
+        },
+        {
+          "text": "que es la veda electoral"
+        },
+        {
+          "text": "¿Qué es la veda electoral?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "demagogia",
+      "examples": [
+        {
+          "text": "¿Qué es la Demagogia?"
+        },
+        {
+          "text": "demagogia"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "ubicacion-usuario",
+      "examples": [
+        {
+          "text": "soy del circuito 8-4"
+        },
+        {
+          "text": "vivo en Chepo"
+        },
+        {
+          "text": "soy de panamá este"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Democracia",
+      "examples": [
+        {
+          "text": "que es democracia"
+        },
+        {
+          "text": "¿Qué es la democracia?"
+        },
+        {
+          "text": "que es la democracia"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "elecciones",
+      "examples": [
+        {
+          "text": "¿Qué son las elecciones y por qué las tenemos?"
+        },
+        {
+          "text": "que es eleccion"
+        },
+        {
+          "text": "que es la eleccion"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "poder",
+      "examples": [
+        {
+          "text": "que es poder"
+        },
+        {
+          "text": "¿Qué es el Poder?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "populismo",
+      "examples": [
+        {
+          "text": "populismo"
+        },
+        {
+          "text": "¿Qué es el populismo?"
+        },
+        {
+          "text": "que es populismo"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "cuando_votar",
+      "examples": [
+        {
+          "text": "voto 2019"
+        },
+        {
+          "text": "cuando se tiene que votar"
+        },
+        {
+          "text": "cuando son las nuevas elecciones"
+        },
+        {
+          "text": "¿Cuándo son las elecciones?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "rol_ciudadana",
+      "examples": [
+        {
+          "text": "¿Cuál es el rol de los ciudadanos en una democracia?"
+        },
+        {
+          "text": "que puedo hacer"
+        },
+        {
+          "text": "cual es mi papel"
+        },
+        {
+          "text": "cual es mi rol"
+        },
+        {
+          "text": "como participo"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "saber-diputado",
+      "examples": [
+        {
+          "text": "me gustaria saber quien es mi diputado"
+        },
+        {
+          "text": "quiero saber quien me representa"
+        },
+        {
+          "text": "quien me representa?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "menu",
+      "examples": [
+        {
+          "text": "volver a menu"
+        },
+        {
+          "text": "*"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "opcionA",
+      "examples": [
+        {
+          "text": "a"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "quienVota",
+      "examples": [
+        {
+          "text": "¿quien vota?"
+        },
+        {
+          "text": "quien puede puede votar?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "por_queHacen",
+      "examples": [
+        {
+          "text": "por que lo hacen"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "costo_corrupcion",
+      "examples": [
+        {
+          "text": "¿Cuál es el costo de la corrupción?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "RespuestaPartidoELECCION",
+      "examples": [
+        {
+          "text": "PRD + Diputado"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "denuncia_veda",
+      "examples": [
+        {
+          "text": "denunciar veda"
+        },
+        {
+          "text": "como denunciar una veda electoral"
+        },
+        {
+          "text": "¿Cómo hacer una denuncia si un candidato incumple la veda electoral?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "partidoOpcionA",
+      "examples": [
+        {
+          "text": "8-4"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "praxis",
+      "examples": [
+        {
+          "text": "¿qué es praxis?"
+        },
+        {
+          "text": "que es praxis"
+        },
+        {
+          "text": "qué es praxis"
+        }
+      ],
+      "description": "posibles preguntas acerca de qué o quíen es Praxis"
+    },
+    {
+      "intent": "queHacen",
+      "examples": [
+        {
+          "text": "a que se dedican"
+        },
+        {
+          "text": "que hacen ustedes"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "quienesSon",
+      "examples": [
+        {
+          "text": "que son ustedes"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "clientelismo",
+      "examples": [
+        {
+          "text": "¿Qué es el Clientelismo?"
+        },
+        {
+          "text": "clientelismo"
+        },
+        {
+          "text": "que es clientelismo"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "importanciaVoto",
+      "examples": [
+        {
+          "text": "porque debería votar?"
+        },
+        {
+          "text": "¿Por qué es importante votar?"
+        },
+        {
+          "text": "porque votaría"
+        },
+        {
+          "text": "que gano con votar"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "gobierno",
+      "examples": [
+        {
+          "text": "como está compuesto el gobierno"
+        },
+        {
+          "text": "que es gobierno."
+        },
+        {
+          "text": "¿Qué es el gobierno y cómo está compuesto?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "elegir",
+      "examples": [
+        {
+          "text": "a quien elegir"
+        },
+        {
+          "text": "¿A quiénes elegimos en estas elecciones?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "opcionC",
+      "examples": [
+        {
+          "text": "c"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "opcionB",
+      "examples": [
+        {
+          "text": "b"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "sys-number",
+      "values": []
+    },
+    {
+      "entity": "sys-person",
+      "values": []
+    },
+    {
+      "entity": "sys-location",
+      "values": []
+    },
+    {
+      "entity": "sys-date",
+      "values": []
+    }
+  ],
+  "language": "en",
+  "metadata": {
+    "api_version": {
+      "major_version": "v1",
+      "minor_version": "2018-09-20"
+    }
+  },
+  "description": "Desafio de praxis acerca de crear un chatbot para la politica panameña. El bot debe responder a preguntas frecuentes.",
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "costo_corrupcion",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "La corrupción corrompe el tejido de la Sociedad. Quebranta la confianza de\nlos ciudadanos en los sistemas económicos y políticos, en las instituciones y en sus\nlíderes. Le puede costar a las personas su libertad, su salud, su dinero, y en\nocasiones hasta la vida."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#costo_corrupcion",
+      "dialog_node": "node_6_1540063114408",
+      "previous_sibling": "node_5_1540062809963"
+    },
+    {
+      "type": "standard",
+      "title": "gobierno",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "El Gobierno es, normalmente, la autoridad que dirige, controla y administra las instituciones y recursos del Estado.\n\nNuestro gobierno tienes tres ramas:\n1. El ejecutivo ( El presidente y su gabinete = Los\nMinistros ),\n2. El Órgano Judicial ( La Corte Suprema de Justicia, quienes son los responsables de\ngarantizar justicia) y\n3. El Órgano Legislativo ( Los diputados en la Asamblea, quienes deben\npresentar y debatir leyes)."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#gobierno",
+      "dialog_node": "node_11_1540064984978",
+      "previous_sibling": "node_10_1540064617751"
+    },
+    {
+      "type": "standard",
+      "title": "elegir",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Escogemos al:\nPresidente (+Vicepresidente)\n71 diputados de la Asamblea Nacional\n20 diputados del Parlamento Centroamericano (Parlacen)\n81 alcaldes\n679 representantes de corregimiento\n9 concejales"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#elegir",
+      "dialog_node": "node_12_1540066069916",
+      "previous_sibling": "node_11_1540064984978"
+    },
+    {
+      "type": "standard",
+      "title": "menu",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hola, me llamo Praxito y estoy para ayudarte a resolver tus dudas en el proceso de                                  a) dudas sobre el proceso de votación                                                             b) conoce tu canditado (propuestas y antecedentes)                    c) Noticias recientes."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#menu",
+      "dialog_node": "node_13_1540116870109",
+      "previous_sibling": "node_12_1540116484292"
+    },
+    {
+      "type": "standard",
+      "title": "opcionB",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "ingrese su circuito."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#opcionB",
+      "dialog_node": "node_11_1540116242719",
+      "previous_sibling": "node_7_1540116101429"
+    },
+    {
+      "type": "standard",
+      "title": "clientelismo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "El clientelismo político es un modo de vinculación política entre un patrón y un cliente construído sobre la base de transacciones, donde el primero controla importantes recursos de poder y garantiza, como un guardián, el acceso a ellos de su clientela a cambio de lealtad y apoyo político (tu voto)."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#clientelismo",
+      "dialog_node": "node_8_1540064062806",
+      "previous_sibling": "node_7_1540063834945"
+    },
+    {
+      "type": "standard",
+      "title": "partidoOpcionA",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ingrese partido + Puesto de elección (ejem: PRD + Diputado)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#partidoOpcionA",
+      "dialog_node": "node_15_1540117706965",
+      "previous_sibling": "node_13_1540116870109"
+    },
+    {
+      "type": "standard",
+      "title": "opcionC",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Caso de Moncada Luna: ¿Cuándo fue?\nA finales de 2014. En marzo fue condenado a 60 meses (5 años) de prisión. La audiencia fue en marzo de 2015.\nDesde el 20 de octubre de 2014 estaba detenido preventivamente en su casa, mientras se desarrollaba el proceso.\npara más información: https://bit.ly/2An14HP"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#opcionC",
+      "dialog_node": "node_12_1540116484292",
+      "previous_sibling": "node_11_1540116242719"
+    },
+    {
+      "type": "standard",
+      "title": "opcionA",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¿Qué deseas saber sobre el proceso de votación?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#opcionA",
+      "dialog_node": "node_7_1540116101429",
+      "previous_sibling": "node_4_1540113312415"
+    },
+    {
+      "type": "standard",
+      "title": "saber-diputado",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Me podrías decir dónde vives, por favor?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#saber-diputado",
+      "dialog_node": "node_4_1540113312415",
+      "previous_sibling": "node_18_1540067691264"
+    },
+    {
+      "type": "standard",
+      "title": "importancia-voto",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Porque es nuestro deber ir a votar y unirnos a ser parte del cambio.\nSi no votas, no serás representado de la mejor forma en el gobierno.\nLa falta de tu voto puede hacer una diferencia directa en el resultado de la elección.\nSi no votamos, nos condenamos a ser gobernados por los peores líderes.\nPonemos en riesgo nuestro futuro y el de nuestras familias."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#importanciaVoto",
+      "dialog_node": "node_17_1540067411002",
+      "previous_sibling": "node_16_1540067149142"
+    },
+    {
+      "type": "standard",
+      "title": "denuncia-veda",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Si ves que algún candidato no está cumpliendo con la veda, puedes denunciarlo al correo: denunciaveda@tribunal-electoral.gob.pa. Asegúrate de mandar foto o video de la propaganda y de especificar el lugar en donde la viste. Si es digital incluye el url."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#denuncia_veda",
+      "dialog_node": "node_15_1540066996529",
+      "previous_sibling": "node_14_1540066626708"
+    },
+    {
+      "type": "standard",
+      "title": "quien_vota",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ser ciudadano panameño;\n-Aparecer en el Padrón Electoral Final de la mesa respectiva; (puedes revisar entrando a verificate.pa\n-presentar la cédula de identidad personal\n-estar en pleno goce de los derechos civiles y políticos’."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#quienVota",
+      "dialog_node": "node_18_1540067691264",
+      "previous_sibling": "node_17_1540067411002"
+    },
+    {
+      "type": "standard",
+      "title": "poder",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Estar [una persona] en condiciones de hacer determinada cosa por no haber nada que lo impida."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#poder",
+      "dialog_node": "node_4_1540061718202",
+      "previous_sibling": "node_3_1540061561970"
+    },
+    {
+      "type": "standard",
+      "title": "elección",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Las elecciones son un proceso de votación en el que escogemos a nuestros líderes políticos y representantes de nuestro gobierno. Este proceso lo tenemos cada 5 años. Tenemos elecciones porque vivimos en una democracia representativa. En una democracia las personas que viven en el país deciden quién va a liderar el país."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#elecciones",
+      "dialog_node": "node_10_1540064617751",
+      "previous_sibling": "node_9_1540064255990"
+    },
+    {
+      "type": "standard",
+      "title": "veda-electoral",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Estar en “veda electoral” significa que está prohibido hacer campaña política, incluyendo propaganda pagada o donada en cualquier medio. La veda aplica cuando faltan más de 45 días para elecciones internas de un partido y más de 60 días para elecciones generales. Es sólo dentro de esos periodos que la ley permite hacer campaña política."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#vedaElectoral",
+      "dialog_node": "node_14_1540066626708",
+      "previous_sibling": "node_13_1540066472044"
+    },
+    {
+      "type": "standard",
+      "title": "respuestaPartidoELECCION",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "En el circuíto 8-4 está el diputado Alfredo 'Fello' Perez por parte del Partido Revolucionario Democrático (PRD)."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#RespuestaPartidoELECCION",
+      "dialog_node": "node_16_1540118083891",
+      "previous_sibling": "node_15_1540117706965"
+    },
+    {
+      "type": "standard",
+      "title": "voto",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "El VOTO es nuestra oportunidad de decidir quienes son las mejores personas para que tomen las decisiones en representación de todos los panameños a nivel nacional e internacional. Estas personas se vuelven políticos ya que en una democracia las personas que viven en el país deciden quienes van a liderar el país."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#voto",
+      "dialog_node": "node_16_1540067149142",
+      "previous_sibling": "node_15_1540066996529"
+    },
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Yo no entendi Puedes intentar reformular."
+              },
+              {
+                "text": "No entendí lo que me quieres decir."
+              },
+              {
+                "text": "¿Puedes reformular tu declaración? No estoy entendiendo."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_16_1540118083891"
+    },
+    {
+      "type": "standard",
+      "title": "Democracia",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "La democracia es una forma de gobierno en la que el poder político le corresponde a los ciudadanos.\n \nLa democracia debe tener:\n1. Un sistema político para elegir y remplazar al gobierno por medio de elecciones gratis y justas.\n2. La participación activa de las personas y ciudadanos en la vida política y cívica de su comunidad.\n3.    La protección de los derechos humanos de todos los ciudadanos.\n4. Un principio de legalidad, donde las leyes y los procesos aplican a todos los ciudadanos por igual."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#Democracia",
+      "dialog_node": "node_1_1540060194570",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "title": "politica",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Es la actividad de los que gobiernan o aspiran a gobernar los asuntos que afectan a la sociedad o a un país. Es la ciencia que trata del gobierno y la organización de las sociedades humanas, especialmente de los estados."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#politica",
+      "dialog_node": "node_3_1540061561970",
+      "previous_sibling": "node_2_1540060841417"
+    },
+    {
+      "type": "standard",
+      "title": "corrupción",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "La corrupción es el abuso de confianza de usar el poder para beneficio personal.\n\ntipos de Corrupción son:\n- Soborno\n- Extorsión\n- Robo / Hurto\n- Malversación / Desfalco / Fraude /Derroche\n- Nepotismo"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#corrupcion",
+      "dialog_node": "node_5_1540062809963",
+      "previous_sibling": "node_4_1540061718202"
+    },
+    {
+      "type": "standard",
+      "title": "rol_ciudadano",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Decidir el sistema del gobierno\n-Elegir representantes aptos\n-Influir en las decisiones del país\n-Controlar y fiscalizar que los servidores públicos hagan bien su trabajo."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#rol_ciudadana",
+      "dialog_node": "node_2_1540060841417",
+      "previous_sibling": "node_1_1540060194570"
+    },
+    {
+      "type": "standard",
+      "title": "cuando-votar",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "El 5 de mayo de 2019"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#cuando_votar",
+      "dialog_node": "node_13_1540066472044",
+      "previous_sibling": "node_12_1540066069916"
+    },
+    {
+      "type": "standard",
+      "title": "demagogia",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Degeneración de la democracia, consistente en que los políticos, mediante concesiones y halagos a los sentimientos elementales de los ciudadanos, tratan de conseguir o mantener el poder."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#demagogia",
+      "dialog_node": "node_9_1540064255990",
+      "previous_sibling": "node_8_1540064062806"
+    },
+    {
+      "type": "standard",
+      "title": "populismo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "El concepto de populismo deriva de pueblo y literalmente denomina a la estrategia de las corrientes políticas y políticos que buscan el apoyo de las clases populares, pero tiene un componente manipulador y demagógico. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#populismo",
+      "dialog_node": "node_7_1540063834945",
+      "previous_sibling": "node_6_1540063114408"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hola, me llamo Praxito y estoy para ayudarte:                                 a) dudas sobre el proceso de votación                                                             b) conoce tu canditado (propuestas y antecedentes)                    c) Noticias recientes."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#saludo",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "workspace_id": "6ce8d8e5-a989-49fe-a101-8a702a35cffe",
+  "counterexamples": [],
+  "system_settings": {
+    "tooling": {
+      "store_generic_responses": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    }
+  },
+  "learning_opt_out": false,
+  "status": "Available"
+}
